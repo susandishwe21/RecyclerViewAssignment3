@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/list_Fragment">
+
+    <fragment
+        android:id="@+id/list_Fragment"
+        android:name="com.example.recyclerviewhomework3.fragment.List_Fragment"
+        android:label="List_Fragment" />
+</navigation>
